@@ -1,2 +1,8 @@
+
+2017-06-28 13:50 Wednesday
+Checking Directory: lab_01
+Directory created correctly - please check instructor files in that directory
+
+
 2017-06-28 13:34 Wednesday
 Repo has been successfully matched with the galaxy user: Ambati, Veera Sheetal
