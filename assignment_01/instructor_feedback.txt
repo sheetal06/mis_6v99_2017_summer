@@ -1,2 +1,5 @@
 
-This file will contain feedback after both preliminary and final grading runs
+2017-06-30 11:26 Friday
+ Checking Directory: assignment_01 File: create_flight_schedule.py
+Assignment source code file found
+Assignment source code completed a run without a stack trace
