@@ -1,5 +1,6 @@
 
-2017-06-30 11:38 Friday
+2017-06-30 11:40 Friday
  Checking Directory: assignment_01 File: create_flight_schedule.py
 Assignment source code file found
-Assignment source code completed a run without a stack tracePlease check instructor_stdio.txt for stdio (if any)Please check instructor_stderr.txt for stderr (if any)
+Assignment source code completed a run without a stack tracePlease check instructor_stdio.txt for stdio (if any)
+Please check instructor_stderr.txt for stderr (if any)
