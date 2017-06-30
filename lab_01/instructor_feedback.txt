@@ -1,5 +1,5 @@
 
-2017-06-30 17:54 Friday
+2017-06-30 17:56 Friday
  Checking Directory: lab_01 File: print_flight_schedule.py
 Assignment source code file found
 Assignment source code completed a run without a stack trace
