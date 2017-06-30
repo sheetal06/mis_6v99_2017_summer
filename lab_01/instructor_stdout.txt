@@ -1,2 +1,1 @@
-
-This file will contain the contents of stdout (if any) after both preliminary and final grading runs
+ 
