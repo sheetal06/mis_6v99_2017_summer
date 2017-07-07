@@ -207,7 +207,7 @@ if __name__ == "__main__":
             break
     final_schedule.sort(key=operator.attrgetter("flight_no", "departuretime"), reverse=False) ## sort the final schedule in necessary order
     with open("flight_schedule.csv", 'w') as f:
-        header = "flight_number,origin,destination,departure_time,arrival_time \n"
+        header = "tail_number,origin,destination,departure_time,arrival_time\n"
         f.write(header)
         for place in final_schedule:
             shrt = place.flight_no + "," + place.origin + "," + place.destination + "," + convert_time( place.departuretime) + "," + convert_time( place.arrivaltime) + '\n'
