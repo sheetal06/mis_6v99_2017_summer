@@ -1,4 +1,10 @@
 
+2017-07-12 10:25 Wednesday
+Checking Directory: assignment_02
+Directory not found (possible missing read me file)
+Please create directory with 1 and only 1 read me, such as README.txt or README.md
+
+
 2017-07-11 09:13 Tuesday
 Checking Directory: assignment_02
 Directory not found (possible missing read me file)
