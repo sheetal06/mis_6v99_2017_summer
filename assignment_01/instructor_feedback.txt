@@ -1,10 +1,97 @@
 
-2017-07-03 00:35 Monday
+2017-07-14 14:51 Friday
  Checking Directory: assignment_01 File: create_flight_schedule.py
 Assignment source code file found
 Assignment source code completed a run without a stack trace
 Please check instructor_stdout.txt for stdout (if any)
 Please check instructor_stderr.txt for stderr (if any)
 Attempting to read flight schedule file: flight_schedule.csv
-Invalid schedule file header: flight_number,origin,destination,departure_time,arrival_time 
-Flight schedule file did not load and validate - 0 points
+[['T1', 'HOU', 'AUS', '0600', 360, '0645', 405], ['T1', 'AUS', 'HOU', '0720', 440, '0805', 485], ['T1', 'HOU', 'AUS', '0850', 530, '0935', 575], ['T1', 'AUS', 'HOU', '1000', 600, '1045', 645], ['T1', 'HOU', 'DAL', '1225', 745, '1330', 810], ['T1', 'DAL', 'HOU', '1400', 840, '1505', 905], ['T1', 'HOU', 'DAL', '1540', 940, '1645', 1005], ['T1', 'DAL', 'HOU', '1715', 1035, '1820', 1100], ['T1', 'HOU', 'DAL', '1855', 1135, '2000', 1200], ['T1', 'DAL', 'HOU', '2030', 1230, '2135', 1295], ['T2', 'HOU', 'DAL', '0600', 360, '0705', 425], ['T2', 'DAL', 'AUS', '0735', 455, '0825', 505], ['T2', 'AUS', 'HOU', '0850', 530, '0935', 575], ['T2', 'HOU', 'DAL', '1050', 650, '1155', 715], ['T2', 'DAL', 'HOU', '1225', 745, '1330', 810], ['T2', 'HOU', 'DAL', '1405', 845, '1510', 910], ['T2', 'DAL', 'HOU', '1540', 940, '1645', 1005], ['T2', 'HOU', 'AUS', '1720', 1040, '1805', 1085], ['T2', 'AUS', 'HOU', '1830', 1110, '1915', 1155], ['T2', 'HOU', 'AUS', '2055', 1255, '2140', 1300], ['T2', 'AUS', 'DAL', '2100', 1260, '2150', 1310], ['T3', 'HOU', 'DAL', '0600', 360, '0705', 425], ['T3', 'DAL', 'HOU', '0735', 455, '0840', 520], ['T3', 'HOU', 'DAL', '0915', 555, '1020', 620], ['T3', 'DAL', 'HOU', '1050', 650, '1155', 715], ['T3', 'HOU', 'AUS', '1230', 750, '1315', 795], ['T3', 'AUS', 'HOU', '1340', 820, '1425', 865], ['T3', 'HOU', 'AUS', '1605', 965, '1650', 1010], ['T3', 'AUS', 'DAL', '1715', 1035, '1805', 1085], ['T3', 'DAL', 'AUS', '1940', 1180, '2030', 1230], ['T3', 'AUS', 'HOU', '2055', 1255, '2140', 1300], ['T4', 'DAL', 'HOU', '0600', 360, '0705', 425], ['T4', 'HOU', 'DAL', '0740', 460, '0845', 525], ['T4', 'DAL', 'HOU', '0915', 555, '1020', 620], ['T4', 'HOU', 'AUS', '1115', 675, '1200', 720], ['T4', 'AUS', 'DAL', '1225', 745, '1315', 795], ['T4', 'DAL', 'AUS', '1450', 890, '1540', 940], ['T4', 'AUS', 'HOU', '1605', 965, '1650', 1010], ['T4', 'HOU', 'AUS', '1830', 1110, '1915', 1155], ['T4', 'AUS', 'DAL', '1940', 1180, '2030', 1230], ['T5', 'DAL', 'HOU', '0600', 360, '0705', 425], ['T5', 'HOU', 'DAL', '0740', 460, '0845', 525], ['T5', 'DAL', 'AUS', '1000', 600, '1050', 650], ['T5', 'AUS', 'HOU', '1115', 675, '1200', 720], ['T5', 'HOU', 'AUS', '1340', 820, '1425', 865], ['T5', 'AUS', 'DAL', '1450', 890, '1540', 940], ['T5', 'DAL', 'HOU', '1610', 970, '1715', 1035], ['T5', 'HOU', 'AUS', '1830', 1110, '1915', 1155], ['T5', 'AUS', 'HOU', '1940', 1180, '2025', 1225], ['T6', 'AUS', 'HOU', '0600', 360, '0645', 405], ['T6', 'HOU', 'AUS', '0850', 530, '0935', 575], ['T6', 'AUS', 'DAL', '1000', 600, '1050', 650], ['T6', 'DAL', 'HOU', '1120', 680, '1225', 745], ['T6', 'HOU', 'AUS', '1340', 820, '1425', 865], ['T6', 'AUS', 'HOU', '1450', 890, '1535', 935], ['T6', 'HOU', 'DAL', '1715', 1035, '1820', 1100], ['T6', 'DAL', 'HOU', '1850', 1130, '1955', 1195], ['T6', 'HOU', 'DAL', '2030', 1230, '2135', 1295]]
+Successful run of program - 5 points
+Flight schedule file loaded and validated - 5 points
+Noise restrictions validated - 5 points
+Flight times validated - 5 points
+Ground times validated - 5 points
+For time 0935 AUS has more than 1 on the ground
+For time 0936 AUS has more than 1 on the ground
+For time 0937 AUS has more than 1 on the ground
+For time 0938 AUS has more than 1 on the ground
+For time 0939 AUS has more than 1 on the ground
+For time 0940 AUS has more than 1 on the ground
+For time 0941 AUS has more than 1 on the ground
+For time 0942 AUS has more than 1 on the ground
+For time 0943 AUS has more than 1 on the ground
+For time 0944 AUS has more than 1 on the ground
+For time 0945 AUS has more than 1 on the ground
+For time 0946 AUS has more than 1 on the ground
+For time 0947 AUS has more than 1 on the ground
+For time 0948 AUS has more than 1 on the ground
+For time 0949 AUS has more than 1 on the ground
+For time 0950 AUS has more than 1 on the ground
+For time 0951 AUS has more than 1 on the ground
+For time 0952 AUS has more than 1 on the ground
+For time 0953 AUS has more than 1 on the ground
+For time 0954 AUS has more than 1 on the ground
+For time 0955 AUS has more than 1 on the ground
+For time 0956 AUS has more than 1 on the ground
+For time 0957 AUS has more than 1 on the ground
+For time 0958 AUS has more than 1 on the ground
+For time 0959 AUS has more than 1 on the ground
+For time 1000 AUS has more than 1 on the ground
+For time 1225 HOU has more than 3 on the ground
+For time 1425 AUS has more than 1 on the ground
+For time 1426 AUS has more than 1 on the ground
+For time 1427 AUS has more than 1 on the ground
+For time 1428 AUS has more than 1 on the ground
+For time 1429 AUS has more than 1 on the ground
+For time 1430 AUS has more than 1 on the ground
+For time 1431 AUS has more than 1 on the ground
+For time 1432 AUS has more than 1 on the ground
+For time 1433 AUS has more than 1 on the ground
+For time 1434 AUS has more than 1 on the ground
+For time 1435 AUS has more than 1 on the ground
+For time 1436 AUS has more than 1 on the ground
+For time 1437 AUS has more than 1 on the ground
+For time 1438 AUS has more than 1 on the ground
+For time 1439 AUS has more than 1 on the ground
+For time 1440 AUS has more than 1 on the ground
+For time 1441 AUS has more than 1 on the ground
+For time 1442 AUS has more than 1 on the ground
+For time 1443 AUS has more than 1 on the ground
+For time 1444 AUS has more than 1 on the ground
+For time 1445 AUS has more than 1 on the ground
+For time 1446 AUS has more than 1 on the ground
+For time 1447 AUS has more than 1 on the ground
+For time 1448 AUS has more than 1 on the ground
+For time 1449 AUS has more than 1 on the ground
+For time 1450 AUS has more than 1 on the ground
+For time 1715 HOU has more than 3 on the ground
+For time 1915 AUS has more than 1 on the ground
+For time 1916 AUS has more than 1 on the ground
+For time 1917 AUS has more than 1 on the ground
+For time 1918 AUS has more than 1 on the ground
+For time 1919 AUS has more than 1 on the ground
+For time 1920 AUS has more than 1 on the ground
+For time 1921 AUS has more than 1 on the ground
+For time 1922 AUS has more than 1 on the ground
+For time 1923 AUS has more than 1 on the ground
+For time 1924 AUS has more than 1 on the ground
+For time 1925 AUS has more than 1 on the ground
+For time 1926 AUS has more than 1 on the ground
+For time 1927 AUS has more than 1 on the ground
+For time 1928 AUS has more than 1 on the ground
+For time 1929 AUS has more than 1 on the ground
+For time 1930 AUS has more than 1 on the ground
+For time 1931 AUS has more than 1 on the ground
+For time 1932 AUS has more than 1 on the ground
+For time 1933 AUS has more than 1 on the ground
+For time 1934 AUS has more than 1 on the ground
+For time 1935 AUS has more than 1 on the ground
+For time 1936 AUS has more than 1 on the ground
+For time 1937 AUS has more than 1 on the ground
+For time 1938 AUS has more than 1 on the ground
+For time 1939 AUS has more than 1 on the ground
+For time 1940 AUS has more than 1 on the ground
+Maximum aircraft per gates at airport voilations - 0 points
+Aircraft are not in position for the next day due to earlier max gates violations - 0 points
+Basic Criteria was not met - no further points are possible
