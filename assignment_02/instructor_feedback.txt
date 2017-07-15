@@ -1,2 +1,8 @@
 
-This file will contain feedback after both preliminary and final grading runs
+2017-07-15 11:09 Saturday
+ Checking Directory: assignment_02 File: analyze_medicare_data.py
+Assignment source code file found
+Assignment source code completed a run without a stack trace
+Please check instructor_stdout.txt for stdout (if any)
+Please check instructor_stderr.txt for stderr (if any)
+Successful run of program without stack trace = 5 points
