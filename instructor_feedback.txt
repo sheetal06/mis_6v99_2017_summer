@@ -1,4 +1,10 @@
 
+2017-07-15 11:07 Saturday
+Checking Directory: assignment_02
+Directory created correctly - please check instructor files in that directory
+
+
+
 2017-07-14 12:38 Friday
 Checking Directory: assignment_02
 Directory not found (possible missing read me file)
