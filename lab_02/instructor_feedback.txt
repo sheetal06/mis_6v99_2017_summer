@@ -1,5 +1,5 @@
 
-2017-07-19 10:29 Wednesday
+2017-07-20 07:59 Thursday
  Checking Directory: lab_02 File: demo_numpy.py
 Assignment source code file found
 Assignment source code completed a run without a stack trace
@@ -7,5 +7,4 @@ Please check instructor_stdout.txt for stdout (if any)
 Please check instructor_stderr.txt for stderr (if any)
 Successful run of program without stack trace = 5 points
 Verifying that your demo_numpy.txt file exists and matches the solution file
-The expected output file demo_numpy.txt was not created
-Your solution file does not match = 0 points
+Your solution file matches = 5 points
