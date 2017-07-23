@@ -1,5 +1,5 @@
 
-2017-07-22 08:55 Saturday
+2017-07-23 12:38 Sunday
  Checking Directory: lab_02 File: demo_numpy.py
 Assignment source code file found
 Assignment source code completed a run without a stack trace
