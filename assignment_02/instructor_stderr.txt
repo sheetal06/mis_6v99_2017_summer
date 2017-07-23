@@ -1,4 +1,5 @@
 Traceback (most recent call last):
   File "analyze_medicare_data.py", line 212, in <module>
-  File "analyze_medicare_data.py", line 22, in csvfiles_download
-FileNotFoundError: [Errno 2] No such file or directory: 'staging'
+  File "analyze_medicare_data.py", line 25, in csvfiles_download
+    os.makedirs('staging')
+FileNotFoundError: [Errno 2] No such file or directory: 'staging/test.zip'
