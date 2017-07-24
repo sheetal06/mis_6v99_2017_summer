@@ -1,8 +1,2 @@
 /home/ancuser/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:1345: UserWarning: The spaces in these column names will not be changed. In pandas versions < 0.14, spaces were converted to underscores.
   chunksize=chunksize, dtype=dtype)
-Traceback (most recent call last):
-  File "analyze_medicare_data.py", line 214, in <module>
-    output_excel()
-  File "analyze_medicare_data.py", line 105, in output_excel
-    qu = first_query + "'"+(in_sheet1.cell(rw=a, clmn=1).value).strip() + "'"
-TypeError: cell() got an unexpected keyword argument 'rw'
