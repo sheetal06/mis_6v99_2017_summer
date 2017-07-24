@@ -73,7 +73,7 @@ def db_creation():
             table_name = os.path.splitext(os.path.basename(file))[0].lower().replace(" ","_").replace("-","_").replace("%", "pct").replace("/","_")
             if(not table_name[0].isalpha()):
                 table_name = "t_" + table_name
-            df.to_sql(table_name,con=conn,if_exists='fail',dtype = {clmn:'text' for clmn in df}, index=False)
+            df.to_sql(table_name,con=conn,if_exists='fail',dtype = {column:'text' for column in df}, index=False)
     ## Raises exception if the connection is made
     except ConnectionError:
         print("Unable to get database connection.. Exiting out of program")
@@ -102,10 +102,10 @@ def output_excel():
     output = []
     conn = sqlite3.connect("medicare_hospital_compare.db")
     while (a<=101):
-        qu = first_query + "'"+(in_sheet1.cell(rw=a, clmn=1).value).strip() + "'"
+        qu = first_query + "'"+(in_sheet1.cell(row=a, column=1).value).strip() + "'"
         rows = conn.execute(qu)
-        for rw in rows:
-            output.append(rw)
+        for row in rows:
+            output.append(row)
         a += 1
     outputdf = pd.DataFrame(output,columns=header,dtype='str')
     output_sheet =openpyxl.Workbook()
@@ -113,8 +113,8 @@ def output_excel():
     for r in dataframe_to_rows(outputdf, index=False, header=True):
         sheet_1.append(r)
     b=2
-    while in_sheet2.cell(rw=b, clmn=1).value != None:
-        states_focused[in_sheet2.cell(rw=b, clmn=1).value.strip()] = in_sheet2.cell(rw=b, clmn=2).value.strip()
+    while in_sheet2.cell(row=b, column=1).value != None:
+        states_focused[in_sheet2.cell(row=b, column=1).value.strip()] = in_sheet2.cell(row=b, column=2).value.strip()
         b += 1
     ## For every item in sorted focus states,provider id is checked
     ## looping through result set until count 100 is obtained
@@ -125,7 +125,7 @@ def output_excel():
         res = []
         while (row_count <= 100):
             qu= second_query
-            qu = qu + "'"+ n + "' and trim(provider_id)=" + "'" + (in_sheet1.cell(rw=sheet_count, clmn=1).value).strip() + "'"
+            qu = qu + "'"+ n + "' and trim(provider_id)=" + "'" + (in_sheet1.cell(row=sheet_count, column=1).value).strip() + "'"
             rows = conn.execute(qu)
             y = [y for y in rows]
             if(len(y) ==0):
@@ -173,8 +173,8 @@ def second_sheet():
     sheet_1 = output_sheet.create_sheet("Nationwide")
     rows = conn.execute(first_query)
     # appends rows to result
-    for rw in rows:
-        result_list.append(rw)
+    for row in rows:
+        result_list.append(row)
     ## Calculating the standard deviation from variance
     output_dataframe1 = pd.DataFrame(result_list,index=None,columns=headers, dtype='str')
     output_dataframe1['Standard Deviation']= output_dataframe1['Standard Deviation'].astype(float).fillna(0.0) ## Converting the string variance into float
@@ -188,8 +188,8 @@ def second_sheet():
         result_state = []
         sheet_state = output_sheet.create_sheet(state)
         rows = conn.execute(second_query,(stabb.strip(),))
-        for rw in rows:
-            result_state.append(rw)
+        for row in rows:
+            result_state.append(row)
         ## Calculating the standard deviation from variance
         output_dataframe2 = pd.DataFrame(result_state, index=None, columns=headers, dtype='str') 
         output_dataframe2['Standard Deviation']= output_dataframe2['Standard Deviation'].astype(float).fillna(0.0)## Converting the string variance into float
