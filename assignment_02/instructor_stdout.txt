@@ -1,1 +1,12 @@
- 
+running for  California
+running for  Florida
+running for  Georgia
+running for  Illinois
+running for  Kansas
+running for  Michigan
+running for  New York
+running for  Ohio
+running for  Pennsylvania
+running for  Texas
+['Nationwide', 'California', 'Florida', 'Georgia', 'Illinois', 'Kansas', 'Michigan', 'New York', 'Ohio', 'Pennsylvania', 'Texas']
+['Nationwide', 'California', 'Florida', 'Georgia', 'Illinois', 'Kansas', 'Michigan', 'New York', 'Ohio', 'Pennsylvania', 'Texas']
