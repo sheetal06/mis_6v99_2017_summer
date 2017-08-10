@@ -1,4 +1,10 @@
 
+2017-08-10 14:58 Thursday
+Checking Directory: assignment_04
+Directory created correctly - please check instructor files in that directory
+
+
+
 2017-08-01 20:22 Tuesday
 Checking Directory: assignment_03
 Directory created correctly - please check instructor files in that directory
