@@ -1,11 +1,11 @@
 
-2017-08-11 11:46 Friday
+2017-08-11 17:19 Friday
  Checking Directory: assignment_04 File: twitter_analytics.py
 Assignment source code file found
 Assignment source code completed a run without a stack trace
 Please check instructor_stdout.txt for stdout (if any)
 Please check instructor_stderr.txt for stderr (if any)
 Verifying that the twitter_analytics.txt file exists and matches the solution file
-The expected output file twitter_analytics.txt was not created and cannot be checked = 0 points
+twitter_analytics.txt matches = 25 points
 Verifying that the tweets.txt file exists and matches the solution file
-The expected output file tweets.txt was not created and cannot be checked = 0 points
+tweets.txt matches = 25 points
